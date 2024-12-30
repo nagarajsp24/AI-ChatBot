@@ -3,8 +3,8 @@ const chatBody = document.querySelector(".chat-body");
 const inputMsg = document.querySelector(".input-message");
 const sendMsgBtn = document.querySelector("#send-message");
 
-//const API_KEY = "AIzaSyAV-eNz8AnD54BA0QU26OuI5THT-_yvM0k";
-const API_url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyBU4vlKdV50l2X7tOMo7sHjsrJZ3tr1tq8`;
+//const API_KEY = "****************";
+const API_url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=**********************`;
 
 const userData = {
     message: null
