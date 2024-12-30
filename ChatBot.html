@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <link rel="stylesheet" href="ChatBot.css">
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <div class="container">
+        <div class="chat-header">
+            <div class="header-info">
+                <img class="bot-avatar" src="bot.png" alt="">
+                <h2 class="h-info">CHatBot</h2>
+            </div>
+            <button id="close-chatbot" class="material-symbols-rounded">
+                keyboard_arrow_down
+            </button>
+        </div>
+        <div class="chat-body">
+            <div class="bot-side-message">
+                <img class="bot-avatar" src="bot.png" alt="">
+                <div class="bot-message">Hello there, <br> How may I help you today?</div>
+            </div>
+            
+        </div>
+        <div class="chat-footer">
+            <form action="#" class="chat-form">
+            <textarea name="name" class="input-message" id="input-message" placeholder="Message here..." required></textarea>
+            <div class="chat-controls">
+                <button type="button"  class="smile material-symbols-rounded">sentiment_satisfied</button>
+                <div class="file-upload-wrapper">
+                    <button type="button" id="file-upload" class="att-file material-symbols-rounded">attach_file</button>
+                </div>
+                <button type="submit" id="send-message" class="upload material-symbols-rounded">arrow_upward</button>
+            </div>
+            </form>
+        </div>
+    </div>
+    <script src="ChatBot.js"></script>
+</body>
+</html>
+
